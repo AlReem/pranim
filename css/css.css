@@ -1,0 +1,44 @@
+.logo {
+	text-align: center;
+	padding:150px 0;
+}
+
+.logo-parts {
+	/*stroke: #000;*/
+}
+
+.pr1, .pr2 {
+	stroke-dasharray: 87;
+	stroke-dashoffset:0;
+	-webkit-animation: dash 2s cubic-bezier(0.190, 1.000, 0.220, 1.000) forwards;
+	-o-animation: dash 2s cubic-bezier(0.190, 1.000, 0.220, 1.000) forwards;
+	-moz-animation: dash 2s cubic-bezier(0.190, 1.000, 0.220, 1.000) forwards;
+	animation: dash 2s cubic-bezier(0.190, 1.000, 0.220, 1.000) forwards;
+}
+
+@-webkit-keyframes dash {
+	from {
+		stroke-dashoffset: 87;
+	}
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+
+.pr3 {
+	stroke-dasharray: 138;
+	stroke-dashoffset:0;
+	-webkit-animation: dashthree 2s cubic-bezier(0.190, 1.000, 0.220, 1.000) forwards;
+	-o-animation: dashthree 2s cubic-bezier(0.190, 1.000, 0.220, 1.000) forwards;
+	-moz-animation: dashthree 2s cubic-bezier(0.190, 1.000, 0.220, 1.000) forwards;
+	animation: dashthree 2s cubic-bezier(0.190, 1.000, 0.220, 1.000) forwards;
+}
+
+@-webkit-keyframes dashthree {
+	from {
+		stroke-dashoffset: 138;
+	}
+	to {
+		stroke-dashoffset: 0;
+	}
+}
