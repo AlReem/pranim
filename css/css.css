@@ -36,6 +36,7 @@
 	animation: dashthree 2s cubic-bezier(0.190, 1.000, 0.220, 1.000) forwards;
 	animation-iteration-count: 30;
 	animation-direction: alternate;
+
 }
 
 @-webkit-keyframes dashthree {
